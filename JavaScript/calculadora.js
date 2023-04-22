@@ -3,15 +3,10 @@ var numeroA;
 var numeroB;
 var operacion;
 
-
-
-function boton(dado) {
+function boton(dato) {
     var auxiliar = document.getElementById("visor").value; // auxiliar recibe el valor que tenga el visor
-    document.getElementById("visor").value = auxiliar + dado; // visor recibe el valor de auxiliar y concatena con dado
-
-
-    valorVisor = document.getElementById("visor").value = auxiliar + dado;
-    
+    document.getElementById("visor").value = auxiliar + dato; // visor recibe el valor de auxiliar y concatena con dato
+    valorVisor = document.getElementById("visor").value = auxiliar + dato;
 }
 
 
@@ -20,7 +15,7 @@ function btn_suma(caracter){
     operacion = "+";
     
     limpiar();
-    //document.getElementById("historico").innerHTML += operacao;
+    //document.getElementById("historico").innerHTML += operacion;
 }
 
 function btn_subtrai(caracter){
