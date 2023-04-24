@@ -34,7 +34,7 @@ function btn_multiplica(caracter){
 
 function btn_divide(caracter){
   numeroA = valorVisor;
-  oepracion = "/";
+  operacion = "/";
   
   limpiar();
 }
