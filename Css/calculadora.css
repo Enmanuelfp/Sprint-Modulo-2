@@ -9,26 +9,20 @@
 
 body {
     background-color: rgb(96, 41, 174);
-  }
-  
-  
+}
 
 .fondo-mod {
     background-color: rgb(123, 123, 123);
-        
-  }
+}
 
   .margem {
     padding: 1%;
     border-radius: 5px;
-    
-  }
-  .mismo-tamanho {
-    border-radius: 1px;
-    
 }
 
-
+  .mismo-tamanho {
+    border-radius: 1px;  
+}
 
 .display {
     margin: 0;
@@ -38,12 +32,15 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
 #visor{
   font-family: 'Press Start 2P', cursive;
 }
+
 #historico{
   font-family: 'Press Start 2P', cursive;
 }
+
 #titulo{
   font-family: 'Lobster', cursive;
 }
